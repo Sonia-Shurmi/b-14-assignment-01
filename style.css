@@ -21,9 +21,18 @@ a{
 }
 .title{
     text-align: center;
-    font-size: 50px;
-    margin-bottom: 40px;
     font-weight: bold;
+    margin-bottom: 40px;
+}
+.title h2{
+    font-size: 50px;
+}
+.title p{
+    color: #575757;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
 }
 /* navbar start */
 .navbar{
@@ -79,7 +88,7 @@ a{
     width: 60%;
     margin: 0 auto;
 }
-.hero btn{
+.hero .btn{
 }
 .hero-content h1{
  font-weight: 700;
@@ -121,4 +130,74 @@ a{
 }
 /* Speaker End */
 /* Pricing start */
+.pricing-area{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.all-pricing{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.single-pricing{
+    border: 1px solid #E5E7EB;
+    padding: 30px 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+.single-pricing.highlight{
+    background: #0D1B2A;
+}
+.price-head{
+    color: #575757;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+    margin-bottom: 20px;
+}
+.single-pricing.highlight .price-head{
+    color: #fff;
+}
+.price-head span{
+    font-weight: 700;
+    color: #000;
+    font-size: 45px;
+    display: block;
+}
+.single-pricing.highlight .price-head span{
+    color: #fff;
+}
+.single-pricing.highlight .price-list li{
+    color: #fff;
+    opacity: 0.8;
+}
+.single-pricing.highlight .btn{
+    width: 100%;
+}
+.price-list {
+    margin-bottom: 20px;
+}
+.price-list li{
+    padding: 3px 0 3px 15px;
+    color: #333;
+    position: relative;
+}
+.price-list li:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 050%;
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    background-color: #2563EB;
+}
+.price-btn{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #2563EB;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #2563EB;
+    font-weight: bold;
+}
 /* Pricing end */
