@@ -1,0 +1,1 @@
+hey professional, i am making a static website homepage about dev conference. Navbar, hero,speaker, pricing and footer i added. there is another section i want to add but no desgin in there. could you plz suggest me a section i can add, also give me an design idea.

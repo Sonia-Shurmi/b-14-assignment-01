@@ -201,3 +201,23 @@ a{
     font-weight: bold;
 }
 /* Pricing end */
+
+/* attend-cards */
+.why-attend {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.attend-cards{
+    display: flex;
+    gap: 20px;
+}
+.attend-card{
+    padding: 30px 20px;
+    text-align: center;
+    display: grid;
+    gap: 10px;
+}
+.attend-card i{
+    font-size: 20px;
+    color: #2563EB;
+}
