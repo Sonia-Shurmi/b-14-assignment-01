@@ -9,6 +9,52 @@ a{
     text-decoration: none;
 }
 .navbar{
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar img{
+    max-width: auto;
+}
+.navbar li a{
+    color: #575757;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.btn{
+    background: #1D4ED8;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+
+.hero{
+    background: url('./assets/banner.jpg');
+    height: calc(100vh - 280px);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: space-between;
+}
+.hero-content{
+    width: 60%;
+    margin: 0 auto;
+}
+.hero-content h1{
+ font-weight: 700;
+ font-size: 70px;
 }
