@@ -8,6 +8,24 @@ li{
 a{
     text-decoration: none;
 }
+.btn{
+    background: #1D4ED8;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+/* navbar start */
 .navbar{
     width: 1200px;
     margin: 0 auto;
@@ -27,34 +45,80 @@ a{
     margin: 0 10px;
     font-weight: 500;
 }
-
-.btn{
-    background: #1D4ED8;
-    padding: 10px 15px;
-    color: #fff;
-    border: none;
-    font-weight: bold;
-    border-radius: 8px;
-}
-
-
+/* Navbar End */
+/* Hero start */
 .hero{
+    position: relative;
     background: url('./assets/banner.jpg');
     height: calc(100vh - 280px);
     background-size: cover;
     background-position: center;
     padding: 100px 0;
+}
+.hero:after{
+    position: absolute;
+    content: '';
+    background: #000;
+    opacity: 0.2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.hero-content{
+    height: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     color: #fff;
     justify-content: space-between;
+    position: relative;
+    z-index: 1;
 }
-.hero-content{
+.heading{
     width: 60%;
     margin: 0 auto;
+}
+.hero btn{
 }
 .hero-content h1{
  font-weight: 700;
  font-size: 70px;
 }
+/* Hero end */
+/* Speaker Start */
+.meet-the-speaker{
+    width: 1200px;
+    margin: 0 auto;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px
+}
+.card{
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+}
+.card img{
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+}
+.speaker-content{
+    padding: 15px;
+    display: grid;
+    gap: 2px;
+}
+.speaker-content span{
+    color: #2563EB;
+    font-weight: 500;
+}
+.speaker-content h3{
+    font-weight: bold;
+}
+.speaker-content p{
+    color: #575757
+}
+/* Speaker End */
+/* Pricing start */
+/* Pricing end */
